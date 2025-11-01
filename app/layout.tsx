@@ -19,7 +19,7 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Jesse Duplantis Kulei",
+  title: "JESSE DUPLANTIS KULEI",
   description: "KEPhSA Security General",
 };
 

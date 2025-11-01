@@ -152,7 +152,7 @@ const Footer = () => {
                   style={{ color: '#F5F0F2' }}
                 >
                   <Mail className="w-4 h-4 transition-colors group-hover:text-red-500" style={{ color: '#B1151C' }} />
-                  <span className="group-hover:underline">Send an Email</span>
+                  <span className="group-hover:underline">Send me an Email</span>
                 </a>
               </motion.div>
             </div>

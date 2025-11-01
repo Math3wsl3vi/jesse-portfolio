@@ -86,7 +86,7 @@ const Hero = () => {
       </motion.nav>
 
       {/* Hero Content */}
-      <div className="flex-1 flex flex-col justify-center items-center text-center px-6 relative z-50">
+      <div className="flex-1 flex flex-col justify-center items-center text-center px-6 relative z-50 mt-32 md:mt-52">
         <div className="max-w-5xl space-y-8">
           {/* Name */}
           <motion.div
