@@ -13,7 +13,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="relative min-h-screen overflow-hidden flex flex-col">
+    <footer className="relative h-screen overflow-hidden flex flex-col">
       {/* Background Image – Parallax Fade */}
       <motion.div
         initial={{ opacity: 0, scale: 1.05 }}
@@ -107,7 +107,7 @@ const Footer = () => {
             </div>
 
             {/* Tree Icon */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -115,7 +115,7 @@ const Footer = () => {
               className="flex justify-start"
             >
             <Image src={'/images/doclogo.png'} alt='logo' width={300} height={300} className='w-32 h-auto'/>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Right Column – Contact & Social */}
@@ -147,7 +147,7 @@ const Footer = () => {
                 style={{ borderColor: '#AB8E86' }}
               >
                 <a
-                  href="mailto:levimathews9841@gmail.com"
+                  href="mailto:duplantisjessek@gmail.com"
                   className="group flex items-center gap-3 text-sm font-mono tracking-widest uppercase transition-all duration-300 hover:translate-x-1"
                   style={{ color: '#F5F0F2' }}
                 >
@@ -161,8 +161,7 @@ const Footer = () => {
             <div className="space-y-6">
               <div className="flex gap-6">
                 {[
-                  { Icon: Github, href: 'https://github.com/Math3wsl3vi', label: 'GitHub' },
-                  { Icon: Linkedin, href: 'https://www.linkedin.com/in/levi-mathews-math3wsl3vi/', label: 'LinkedIn' },
+                  { Icon: Linkedin, href: 'https://www.linkedin.com/in/jesse-duplantis-b14720214/', label: 'LinkedIn' },
                 ].map(({ Icon, href, label }, i) => (
                   <motion.a
                     key={label}
